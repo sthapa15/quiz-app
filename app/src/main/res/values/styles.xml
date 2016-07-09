@@ -8,4 +8,13 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="TitleText" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+
+        <item name="android:gravity">center_horizontal</item>
+
+
+    </style>
+
 </resources>

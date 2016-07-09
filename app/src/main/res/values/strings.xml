@@ -1,3 +1,81 @@
 <resources>
-    <string name="app_name">HarryPotterTrivia</string>
+    <string name="app_name">Harry Potter Trivia</string>
+
+    <string name="welcome_msg">Welcome to Harry Potter Trivia!</string>
+
+    <!-- question 1 - radio button -->
+    <string name="question_1">1. When was Harry Potter and the Philosopher\'s Stone released in the UK?</string>
+    <string name="q1_option1">1997</string>
+    <string name="q1_option2">1998</string>
+    <string name="q1_option3">1999</string>
+    <string name="q1_option4">1996</string>
+
+    <!-- question 2 - EditText box -->
+    <string name="question_2">2. Who was the Half Blood Prince?</string>
+    <string name="q2_hintText">Enter answer here.</string>
+    <!--answer to this question is a textbox-->
+
+    <!-- question 3 - radio button -->
+    <string name="question_3">3. Who killed Albus Dumbledore?</string>
+    <string name="q3_option1">Harry Potter</string>
+    <string name="q3_option2">Voldemort</string>
+    <string name="q3_option3">Bellatrix Lestrange</string>
+    <string name="q3_option4">Severus Snape</string>
+
+    <!-- question 4 - checkbox -->
+    <string name="question_4">4. Which of the following are horcruxes? Select all that apply.</string>
+    <string name="q4_option1">Voldemort</string>
+    <string name="q4_option2">Harry Potter</string>
+    <string name="q4_option3">Tom Riddle\'s Diary</string>
+    <string name="q4_option4">Gryffindor\'s Sword</string>
+    <string name="q4_option5">Rowena Ravenclaw\'s diadem</string>
+
+    <!-- question 5 - radio button -->
+    <string name="question_5">5. Where did Harry Potter live with the Dursley\'s?</string>
+    <string name="q5_option1">6 Privet Drive</string>
+    <string name="q5_option2">4 Private Drive</string>
+    <string name="q5_option3">7 Privet Drive</string>
+    <string name="q5_option4">4 Privet Drive</string>
+
+    <!-- question 6 - radio button -->
+    <string name="question_6">6. Neville Longbottom had what type of animal as a pet?</string>
+    <string name="q6_option1">Rat</string>
+    <string name="q6_option2">Owl</string>
+    <string name="q6_option3">Toad</string>
+    <string name="q6_option4">Cat</string>
+
+    <!-- question 7 - radio button T/F -->
+    <string name="question_7">7. Hermione Granger is half muggle and half witch.</string>
+    <string name="q7_option1">True</string>
+    <string name="q7_option2">False</string>
+
+    <!-- question 8 - radio button -->
+    <string name="question_8">8. Where does Arthur Weasley initially work at the Ministry of Magic?</string>
+    <string name="q8_option1">Improper Use of Magic Office</string>
+    <string name="q8_option2">Misuse of Muggle Artifacts Office</string>
+    <string name="q8_option3">Department of Magical Game and Sports</string>
+    <string name="q8_option4">Department of Magical Transportation</string>
+
+    <!-- question 9 - checkbox -->
+    <string name="question_9">9. Which of the following are the Weasley children? Select all that apply.</string>
+    <string name="q9_option1">Bill Weasley</string>
+    <string name="q9_option2">Percy Weasley</string>
+    <string name="q9_option3">Harry Weasley</string>
+    <string name="q9_option4">Ron Weasley</string>
+    <string name="q9_option5">Frank Weasley</string>
+    <string name="q9_option6">Fred Weasley</string>
+    <string name="q9_option7">Ginny Weasley</string>
+
+    <!-- question 10 - EditText -->
+    <string name="question_10">10. Which spell helps to disarm the opponent and is a defensive spell? Hint: Harry loves it.</string>
+    <!-- answer is in textbox -->
+
+    <!-- button text to score quiz -->
+    <string name="submit_quiz">Score My Quiz</string>
+
+    <!-- button text to e-mail result -->
+    <string name="share_result">Share Results</string>
+
+
+
 </resources>
