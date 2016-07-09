@@ -36,6 +36,7 @@
                 android:text="@string/question_1" />
 
             <RadioGroup
+                android:id="@+id/q1_rg"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -66,6 +67,7 @@
                     android:text="@string/q1_option4" />
             </RadioGroup>
 
+
             <!--Question 2-->
             <TextView
                 android:layout_width="match_parent"
@@ -86,6 +88,7 @@
                 android:text="@string/question_3" />
 
             <RadioGroup
+                android:id="@+id/q3_rg"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -106,27 +109,27 @@
                     android:id="@+id/q3_ans3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/q3_option3"/>
+                    android:text="@string/q3_option3" />
 
                 <RadioButton
                     android:id="@+id/q3_ans4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="16dp"
-                    android:text="@string/q3_option4"/>
+                    android:text="@string/q3_option4" />
             </RadioGroup>
 
             <!--Question 4-->
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/question_4"/>
+                android:text="@string/question_4" />
 
             <CheckBox
                 android:id="@+id/q4_ans1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/q4_option1"/>
+                android:text="@string/q4_option1" />
 
             <CheckBox
                 android:id="@+id/q4_ans2"
@@ -157,9 +160,10 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/question_5"/>
+                android:text="@string/question_5" />
 
             <RadioGroup
+                android:id="@+id/q5_rg"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -180,24 +184,25 @@
                     android:id="@+id/q5_ans3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/q5_option3"/>
+                    android:text="@string/q5_option3" />
 
                 <RadioButton
                     android:id="@+id/q5_ans4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="16dp"
-                    android:text="@string/q5_option4"/>
+                    android:text="@string/q5_option4" />
 
             </RadioGroup>
 
-            <!-- Question 66 -->
+            <!-- Question 6 -->
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/question_6"/>
+                android:text="@string/question_6" />
 
             <RadioGroup
+                android:id="@+id/q6_rg"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -218,14 +223,14 @@
                     android:id="@+id/q6_ans3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/q6_option3"/>
+                    android:text="@string/q6_option3" />
 
                 <RadioButton
                     android:id="@+id/q6_ans4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="16dp"
-                    android:text="@string/q6_option4"/>
+                    android:text="@string/q6_option4" />
 
             </RadioGroup>
 
@@ -233,9 +238,10 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/question_7"/>
+                android:text="@string/question_7" />
 
             <RadioGroup
+                android:id="@+id/q7_rg"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -258,9 +264,10 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/question_8"/>
+                android:text="@string/question_8" />
 
             <RadioGroup
+                android:id="@+id/q8_rg"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -281,14 +288,14 @@
                     android:id="@+id/q8_ans3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/q8_option3"/>
+                    android:text="@string/q8_option3" />
 
                 <RadioButton
                     android:id="@+id/q8_ans4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="16dp"
-                    android:text="@string/q8_option4"/>
+                    android:text="@string/q8_option4" />
 
             </RadioGroup>
 
@@ -296,13 +303,13 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/question_9"/>
+                android:text="@string/question_9" />
 
             <CheckBox
                 android:id="@+id/q9_ans1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/q9_option1"/>
+                android:text="@string/q9_option1" />
 
             <CheckBox
                 android:id="@+id/q9_ans2"
@@ -359,8 +366,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
+                android:onClick="submitQuiz"
                 android:padding="16dp"
-                android:text="@string/submit_quiz"/>
+                android:text="@string/submit_quiz" />
+
 
         </LinearLayout>
 
